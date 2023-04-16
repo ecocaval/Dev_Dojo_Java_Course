@@ -14,10 +14,15 @@ public class TaxCalculator {
         System.out.println("Tax: $" + tax);
 
         if (product instanceof Computer) {
-            Computer computer = (Computer) product;
-            if (computer.getBrand() != null) {
-                System.out.println("Brand: " + computer.getBrand());
+            String brand = ((Computer) product).getBrand();
+            if (brand != null) {
+                System.out.println("Brand: " + brand);
             }
+
+//          Computer computer = (Computer) product;
+//          if (computer.getBrand() != null) {
+//              System.out.println("Brand: " + computer.getBrand());
+//          }
         }
         System.out.println("----------------------");
     }
