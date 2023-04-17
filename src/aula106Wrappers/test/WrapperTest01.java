@@ -13,6 +13,7 @@ public class WrapperTest01 {
         boolean booleanTest = true;
         String stringTest = "1";
 
+        // boxing
         Byte byteWrapper = byteTest;
         Short shortWrapper = shortTest;
 
@@ -26,7 +27,7 @@ public class WrapperTest01 {
         Boolean booleanWrapper = true;
         String stringWrapper = "1";
 
-
+        // unboxing
         byte byteTest2 = byteWrapper2;
         short shortTest2 = shortWrapper2;
     }
